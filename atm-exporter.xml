@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10001</projectId>
+    <projectKey>SWAG</projectKey>
+    <exportDate>2025-11-08 20:15:45 UTC</exportDate>
+    <folders>
+        <folder fullPath="Login" index="0"/>
+    </folders>
+    <testCases>
+        <testCase id="275207654" key="SWAG-T2">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Matheus Brollo Dauter</createdBy>
+            <createdOn>2025-11-08 19:35:53 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels>
+                <label><![CDATA[Sprint]]></label>
+                <label><![CDATA[Web]]></label>
+            </labels>
+            <name><![CDATA[Incorrect email or password BDD]]></name>
+            <objective><![CDATA[Test when user enter incorrect email or password, may to open text box with a message &quot;<span style="color: rgb(102,0,0);font-family: 'Droid Serif' , NeverMind , sans-serif , 'Microsoft YaHei' , 'PingFang SC' , 'Microsoft JhengHei' , 'Apple Color Emoji' , 'Segoe UI Emoji' , 'Segoe UI Symbol' , 'Noto Color Emoji';font-size: 14.0px;font-style: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-indent: 0.0px;text-transform: none;widows: 2;word-spacing: 0.0px;background-color: rgb(255,255,255);display: inline !important;float: none;">Unknow Email or Passsword</span><span style="color: rgb(9,30,66);font-family: 'Droid Serif' , NeverMind , sans-serif , 'Microsoft YaHei' , 'PingFang SC' , 'Microsoft JhengHei' , 'Apple Color Emoji' , 'Segoe UI Emoji' , 'Segoe UI Symbol' , 'Noto Color Emoji';font-size: 14.0px;font-style: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-indent: 0.0px;text-transform: none;widows: 2;word-spacing: 0.0px;background-color: rgb(255,255,255);float: none;display: inline !important;">&quot;</span>]]></objective>
+            <owner>60ce82c3758a5d006a3fd0b3</owner>
+            <precondition><![CDATA[User enter the incorrect password or email or both.]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o cliente esteja na tela de login
+
+And não esteja logado naquele dispositivo
+
+When ele digitar email, senha ou os dois INCORRETAMENTE
+
+Then Aparecerá uma caixa de texto escrito "Incorrect Password";]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="275252088" key="SWAG-T3">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Matheus Brollo Dauter</createdBy>
+            <createdOn>2025-11-08 20:08:27 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels>
+                <label><![CDATA[Sprint]]></label>
+                <label><![CDATA[Web]]></label>
+            </labels>
+            <name><![CDATA[Incorrect email or password Step-by-Step]]></name>
+            <objective><![CDATA[Test when user enter incorrect email or password, may to open text box with a message &quot;<span style="color: rgb(102,0,0);font-family: 'Droid Serif' , NeverMind , sans-serif , 'Microsoft YaHei' , 'PingFang SC' , 'Microsoft JhengHei' , 'Apple Color Emoji' , 'Segoe UI Emoji' , 'Segoe UI Symbol' , 'Noto Color Emoji';font-size: 14.0px;font-style: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-indent: 0.0px;text-transform: none;widows: 2;word-spacing: 0.0px;background-color: rgb(255,255,255);display: inline !important;float: none;">Unknow Email or Passsword</span><span style="color: rgb(9,30,66);font-family: 'Droid Serif' , NeverMind , sans-serif , 'Microsoft YaHei' , 'PingFang SC' , 'Microsoft JhengHei' , 'Apple Color Emoji' , 'Segoe UI Emoji' , 'Segoe UI Symbol' , 'Noto Color Emoji';font-size: 14.0px;font-style: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-indent: 0.0px;text-transform: none;widows: 2;word-spacing: 0.0px;background-color: rgb(255,255,255);float: none;display: inline !important;">&quot;</span>]]></objective>
+            <owner>60ce82c3758a5d006a3fd0b3</owner>
+            <precondition><![CDATA[User enter the incorrect password or email or both.]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[​Clique no bot&atilde;o ​&quot;Login&quot; e entre na p&aacute;gina de login.]]></description>
+                        <expectedResult><![CDATA[&quot;<span style="color: rgb(102,0,0);font-family: 'Droid Serif' , NeverMind , sans-serif , 'Microsoft YaHei' , 'PingFang SC' , 'Microsoft JhengHei' , 'Apple Color Emoji' , 'Segoe UI Emoji' , 'Segoe UI Symbol' , 'Noto Color Emoji';font-size: 14.0px;font-style: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-indent: 0.0px;text-transform: none;widows: 2;word-spacing: 0.0px;background-color: rgb(255,255,255);display: inline !important;float: none;">Unknow Email or Passsword</span><span style="color: rgb(9,30,66);font-family: 'Droid Serif' , NeverMind , sans-serif , 'Microsoft YaHei' , 'PingFang SC' , 'Microsoft JhengHei' , 'Apple Color Emoji' , 'Segoe UI Emoji' , 'Segoe UI Symbol' , 'Noto Color Emoji';font-size: 14.0px;font-style: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-indent: 0.0px;text-transform: none;widows: 2;word-spacing: 0.0px;background-color: rgb(255,255,255);float: none;display: inline !important;">&quot;</span>]]></expectedResult>
+                        <testData><![CDATA[Insira o email incorreto.]]></testData>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[​Clique no bot&atilde;o ​&quot;Login&quot; e entre na p&aacute;gina de login.]]></description>
+                        <expectedResult><![CDATA[&quot;<span style="color: rgb(102,0,0);font-family: 'Droid Serif' , NeverMind , sans-serif , 'Microsoft YaHei' , 'PingFang SC' , 'Microsoft JhengHei' , 'Apple Color Emoji' , 'Segoe UI Emoji' , 'Segoe UI Symbol' , 'Noto Color Emoji';font-size: 14.0px;font-style: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-indent: 0.0px;text-transform: none;widows: 2;word-spacing: 0.0px;background-color: rgb(255,255,255);display: inline !important;float: none;">Unknow Email or Passsword</span><span style="color: rgb(9,30,66);font-family: 'Droid Serif' , NeverMind , sans-serif , 'Microsoft YaHei' , 'PingFang SC' , 'Microsoft JhengHei' , 'Apple Color Emoji' , 'Segoe UI Emoji' , 'Segoe UI Symbol' , 'Noto Color Emoji';font-size: 14.0px;font-style: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-indent: 0.0px;text-transform: none;widows: 2;word-spacing: 0.0px;background-color: rgb(255,255,255);float: none;display: inline !important;">&quot;</span>]]></expectedResult>
+                        <testData><![CDATA[Insira a senha incorreta.]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="275252110" key="SWAG-T4">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Matheus Brollo Dauter</createdBy>
+            <createdOn>2025-11-08 20:11:09 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels>
+                <label><![CDATA[Sprint]]></label>
+                <label><![CDATA[Web]]></label>
+            </labels>
+            <name><![CDATA[CREAT Invalid email or password - BDD]]></name>
+            <objective><![CDATA[Test when user enter incorrect email or password, may to open text box with a message &quot;<span style="color: rgb(102,0,0);font-family: 'Droid Serif' , NeverMind , sans-serif , 'Microsoft YaHei' , 'PingFang SC' , 'Microsoft JhengHei' , 'Apple Color Emoji' , 'Segoe UI Emoji' , 'Segoe UI Symbol' , 'Noto Color Emoji';font-size: 14.0px;font-style: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-indent: 0.0px;text-transform: none;widows: 2;word-spacing: 0.0px;background-color: rgb(255,255,255);display: inline !important;float: none;">Unknow Email or Passsword</span><span style="color: rgb(9,30,66);font-family: 'Droid Serif' , NeverMind , sans-serif , 'Microsoft YaHei' , 'PingFang SC' , 'Microsoft JhengHei' , 'Apple Color Emoji' , 'Segoe UI Emoji' , 'Segoe UI Symbol' , 'Noto Color Emoji';font-size: 14.0px;font-style: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-indent: 0.0px;text-transform: none;widows: 2;word-spacing: 0.0px;background-color: rgb(255,255,255);float: none;display: inline !important;">&quot;</span>]]></objective>
+            <owner>60ce82c3758a5d006a3fd0b3</owner>
+            <precondition><![CDATA[User enter the incorrect password or email or both.]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o cliente esteja na tela de criação de perfil
+
+And não esteja logado naquele dispositivo
+
+When ele digita um email inválido
+
+Then Aparecerá uma caixa de texto escrito "Invalid Email"
+
+When ele digita uma senha inválida, (sem caracteres especiais, sem pelo menos 1 número, sem nenhuma letra maiuscula e minuscula)
+
+Then Aparecerá uma caixa de texto escrito "Invalid Password";]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="275252111" key="SWAG-T5">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Matheus Brollo Dauter</createdBy>
+            <createdOn>2025-11-08 20:11:09 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels>
+                <label><![CDATA[Sprint]]></label>
+                <label><![CDATA[Web]]></label>
+            </labels>
+            <name><![CDATA[CREAT Invalid email or password Step-by-Step]]></name>
+            <objective><![CDATA[Test when user enter incorrect email or password, may to open text box with a message &quot;<span style="color: rgb(102,0,0);font-family: 'Droid Serif' , NeverMind , sans-serif , 'Microsoft YaHei' , 'PingFang SC' , 'Microsoft JhengHei' , 'Apple Color Emoji' , 'Segoe UI Emoji' , 'Segoe UI Symbol' , 'Noto Color Emoji';font-size: 14.0px;font-style: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-indent: 0.0px;text-transform: none;widows: 2;word-spacing: 0.0px;background-color: rgb(255,255,255);display: inline !important;float: none;">Unknow Email or Passsword</span><span style="color: rgb(9,30,66);font-family: 'Droid Serif' , NeverMind , sans-serif , 'Microsoft YaHei' , 'PingFang SC' , 'Microsoft JhengHei' , 'Apple Color Emoji' , 'Segoe UI Emoji' , 'Segoe UI Symbol' , 'Noto Color Emoji';font-size: 14.0px;font-style: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-indent: 0.0px;text-transform: none;widows: 2;word-spacing: 0.0px;background-color: rgb(255,255,255);float: none;display: inline !important;">&quot;</span>]]></objective>
+            <owner>60ce82c3758a5d006a3fd0b3</owner>
+            <precondition><![CDATA[User enter the incorrect password or email or both.]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Clique no bot&atilde;o &quot;Creat Account&quot; e entre na p&aacute;gina de cria&ccedil;&atilde;o.]]></description>
+                        <expectedResult><![CDATA[&quot;Please enter a valid email&quot;]]></expectedResult>
+                        <testData><![CDATA[Insira um email invalido ou inexistente.]]></testData>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Clique no bot&atilde;o &quot;Creat Account&quot; e entre na p&aacute;gina de cria&ccedil;&atilde;o.]]></description>
+                        <expectedResult><![CDATA[&quot;Invalid Password&quot;]]></expectedResult>
+                        <testData><![CDATA[Insira uma senha inv&aacute;lida, (sem caracteres especiais, sem pelo menos 1 n&uacute;mero, sem nenhuma letra maiuscula e minuscula)]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
